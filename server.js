@@ -75,5 +75,5 @@ app.post('/login-user', (req, res) => {
 })
 
 app.listen(port, (req, res) => {
-    console.log(`server is up and running on  port :` ,{port})
+    console.log(`server is up and running on  port:`,port)
 })
